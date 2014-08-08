@@ -13,7 +13,6 @@ You must have jdk1.6 or higher and maven3.0 orhigher.
 ======================  
   Simple
       <bean class="com.sirius.sphinx.XSphinxClient">
-        <!-- server address -->
         <constructor-arg index="0" name="host" value="127.0.0.1"/>
         <constructor-arg index="1" name="port" value="9312"/>
       </bean>
