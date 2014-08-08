@@ -1,4 +1,4 @@
 ##sphinx4j
 ========
 
-java driver for sphinx
+A java driver for sphinx. It's based on [xSocket] and [commons-pool2].
