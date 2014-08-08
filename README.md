@@ -9,6 +9,9 @@ It also provide clearness sphinx protocol model whitch is mush better then defau
 ##Requirement
 You must have jdk1.6 or higher and maven3.0 orhigher.
 
+##Spring Configuration
+  ##Simple
+
 ##Example
         public class Test1 {
         
