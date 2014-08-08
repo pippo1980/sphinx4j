@@ -9,9 +9,31 @@ It also provide clearness sphinx protocol model whitch is mush better then defau
 ##Requirement
 You must have jdk1.6 or higher and maven3.0 orhigher.
 
-##Spring Configuration
-  ##Simple
+##Configuration By Spring
+======================  
+  Simple
+      <bean class="com.sirius.sphinx.XSphinxClient">
+        <!-- server address -->
+        <constructor-arg index="0" name="host" value="127.0.0.1"/>
+        <constructor-arg index="1" name="port" value="9312"/>
+      </bean>
 
+  customization connection pool
+  
+      <bean class="com.sirius.sphinx.XSphinxClient">
+        <!-- server address -->
+        <constructor-arg index="0" name="host" value="127.0.0.1"/>
+        <constructor-arg index="1" name="port" value="9312"/>
+        <!-- customization connection pool -->
+        <property name="maxIdle" value="2"/>
+        <property name="maxTotal" value="100"/>
+        <property name="testOnCreate" value="true"/>
+        <property name="testOnBorrow" value="true"/>
+        <property name="testOnReturn" value="true"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="blockWhenExhausted" value="false"/>
+      </bean>
+      
 ##Example
         public class Test1 {
         
