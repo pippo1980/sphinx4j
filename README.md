@@ -4,7 +4,7 @@
 A java driver for sphinx. 
 It's based on [xSocket](http://xsocket.sourceforge.net/) and [commons-pool2](http://commons.apache.org/proper/commons-pool2/).
 It can connet to sphinx serchd with long connection, and the long connection managed by a connection pool.
-It also provide clearness sphinx protocol model whitch is mush better then default Implementation.
+It also provide clearness sphinx protocol model implementation whitch is mush better then default implementation.
 
 ##Requirement
 You must have jdk1.6 or higher and maven3.0 orhigher.
