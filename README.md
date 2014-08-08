@@ -11,12 +11,6 @@ You must have jdk1.6 or higher and maven3.0 orhigher.
 
 ##Configuration By Spring
 ======================  
-  Simple
-      <bean class="com.sirius.sphinx.XSphinxClient">
-        <constructor-arg index="0" name="host" value="127.0.0.1"/>
-        <constructor-arg index="1" name="port" value="9312"/>
-      </bean>
-
   customization connection pool
   
       <bean class="com.sirius.sphinx.XSphinxClient">
