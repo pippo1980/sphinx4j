@@ -9,7 +9,7 @@ It also provide clearness sphinx protocol model whitch is mush better then defau
 ##Requirement
 You must have jdk1.6 or higher and maven3.0 orhigher.
 
-##Configuration By Spring
+##Configuration With Spring
 ======================  
   customization connection pool
   
